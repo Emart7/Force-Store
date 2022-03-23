@@ -6,14 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Force Store | Descargue nuestros aplicativos y juegos</title>
-    <!-- <link rel="stylesheet" href="./assets/css/normalize.css"> -->
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/destacados.css">
+    <link rel="stylesheet" href="./assets/css/populares.css">
+
 </head>
 
 <body class="app">
-    <header class="encabezado">Encabezado</header>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link activo" href="#">
+                        <i class="fas fa-home"></i>
+                        Inicio
+                    </a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicaciones</a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Juegos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main class="contenido">
         <section class="destaques">
             <div class="destaques__principal box">
@@ -394,7 +414,7 @@
         </section>
 
     </main>
-    <footer class="rodapie">Rodapie</footer>
+    <footer class="footer">Todos los derechos reservados &copy; Force-Store 2022</footer>
     <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 
