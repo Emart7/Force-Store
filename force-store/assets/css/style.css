@@ -10,32 +10,22 @@
   grid-template-rows: 50px auto auto;
 }
 
-.header {
+.encabezado {
   align-items: center;
   display: flex;
   grid-area: header;
   padding: 0 2rem;
+  background: #f1f1f1;
 }
-
-.menu__link {
-  color: slateblue;
-  padding: 0.5rem 1rem;
-}
-
-.menu__link:hover,
-.menu__link:active {
-  border-bottom: 2px solid slateblue;
-}
-
 .contenido {
   grid-area: contenido;
   padding: 0 2rem;
 }
 
-.footer {
-    background: #f1f1f1;
-    color: darkgrey;
-    grid-area: footer;
-    padding: 1rem;
-    text-align: center;
+.rodapie {
+  background: #fdfdfd;
+  color: #333333;
+  grid-area: footer;
+  padding: 1rem;
+  text-align: center;
 }
